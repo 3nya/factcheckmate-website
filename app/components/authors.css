@@ -1,0 +1,25 @@
+.publication-authors {
+}
+
+.publication-authors a {
+   transition-duration: 0.4s;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+    background-color: #04AA6D; /* Green */
+    color: white;
+}
+
+.author-block {
+  display: inline-block;
+  font-size: x-large;
+  padding: 5px;
+}
+.place-block {
+    font-size: medium;
+}
+
+.link-button:hover {
+
+}

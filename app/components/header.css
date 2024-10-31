@@ -1,0 +1,35 @@
+.header {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: background-color 0.2s ease-in;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255); 
+    /*box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);*/
+
+}
+
+.header.transparent {
+    background-color: rgba(0, 0, 0, 0); 
+    color: rgba(0, 0, 0, 0);
+}
+
+.header-button {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: medium;
+    transition-duration: 0.4s;
+
+}
+
+.header-button:hover {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #243f9d; 
+    color: rgb(255, 255, 255);
+}

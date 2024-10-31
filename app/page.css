@@ -1,0 +1,56 @@
+
+.author-block {
+  display: inline-block;
+}
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.title {
+    font-size: xx-large;
+    text-shadow: 3em;
+}
+/* FIRST HEADER*/
+.app {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: aqua;
+    align-self: center;
+    align-items: center;
+    min-height: 15%;
+}
+/* TRANSITIONS INTO THIS */
+.header2 {
+
+}
+.content {
+    background-color: white;
+    height: 1000px;
+}
+.link-button {
+    border-radius: 8px;
+    background-color: blue;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 3px;
+    
+}
+.link-button {
+    transition-duration: 0.4s;
+}
+.link-button:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+
+/* first text box content */
+.heading {
+    font-size: xx-large;
+    text-shadow: 3em;
+    padding-top: 3em;
+    padding-left: 5em;
+}
+.first-box {
+    font-size: medium;
+    padding-top: 10px;
+    padding-left: 10em;
+}
