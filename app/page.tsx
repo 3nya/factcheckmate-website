@@ -25,6 +25,9 @@ export default function Home() {
           hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
         </p>
       </div>
+      <div className="">
+        <h1> Results</h1>
+      </div>
     </div>
   );
 }
