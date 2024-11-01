@@ -7,7 +7,7 @@
 
 .publication-authors a:hover {
     text-decoration: underline;
-    background-color: #04AA6D; /* Green */
+    background-color: #93c5da; /* Green */
     color: white;
 }
 
@@ -15,9 +15,13 @@
   display: inline-block;
   font-size: x-large;
   padding: 5px;
+  color:white;
+
 }
 .place-block {
     font-size: medium;
+    color:white;
+
 }
 
 .link-button:hover {

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./page.css";
 import Authors from './components/authors';
 import Header from './components/header';
+import Highlight from "./components/highlight";
 
 
 export default function Home() {
@@ -19,15 +20,26 @@ export default function Home() {
           <button type="button" onClick={handleClick} className="link-button"> github </button>
       </div>
       <Header />
+      <Highlight text="example" additionaltext=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet velit dolor. Cras auctor sagittis augue in varius. Nullam a suscipit risus, interdum fringilla massa. Nullam leo dolor, facilisis quis dolor eu, sodales porta enim. Nulla at velit eros. Sed ut elit ut est cursus facilisis in sit amet tellus. In hac habitasse platea dictumst. Duis tellus erat, tincidunt at turpis id, sagittis dignissim erat. Sed varius nunc nec ligula condimentum commodo ut quis neque. Nulla commodo erat nibh, sed blandit odio hendrerit id. Integer mattis sed elit eu luctus.
+"/>
       <div className="content">
-        <h1 className="heading"> How it works </h1>
+        <h1 className="heading"> How It Works </h1>
         <p className="first-box">
-          hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
+          Language models hidden states reveals valuable information about their internal working mechanisms, and provide signals that can be used to 
+          predict whether it is likely to <Highlight text = "halluncinate" additionaltext="here i would put a defintion of halluncinations"/> <i> before </i> it happens. 
+          <br/>
+          When a hallucination is detected, Fact Checkmate intervenes, by adjusting the LM's hidden states with a learned intervention model.
+          <br/>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet velit dolor. Cras auctor sagittis augue in varius. Nullam a suscipit risus, interdum fringilla massa. Nullam leo dolor, facilisis quis dolor eu, sodales porta enim. Nulla at velit eros. Sed ut elit ut est cursus facilisis in sit amet tellus. In hac habitasse platea dictumst. Duis tellus erat, tincidunt at turpis id, sagittis dignissim erat. Sed varius nunc nec ligula condimentum commodo ut quis neque. Nulla commodo erat nibh, sed blandit odio hendrerit id. Integer mattis sed elit eu luctus.
         </p>
       </div>
-      <div className="">
-        <h1> Results</h1>
+      <div className="content">
+        <h1 className="heading"> Results</h1>
       </div>
+      <div className="content">
+        <h1 className="heading"> Abstract </h1>
+      </div>
+
     </div>
   );
 }

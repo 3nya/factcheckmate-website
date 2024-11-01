@@ -37,9 +37,8 @@ const Header = () => {
                 <div>
 
                     <button className='header-button'> How It Works </button>
-                    <button className='header-button'> Other </button>
-                    <button className='header-button'> Buttons </button>
-                    <button className='header-button'> For Now </button>
+                    <button className='header-button'> Results </button>
+                    <button className='header-button'> Abstract </button>
                 </div>
             </nav>
         </div>
