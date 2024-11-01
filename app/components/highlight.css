@@ -1,0 +1,49 @@
+/* additional information box */
+.add {
+    height: min-content;
+    width: min-content;
+    padding: min-content;
+}
+.highlight-container {
+    position: relative;
+    display: inline-block;
+}
+.additional-text {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 100%;
+    background-color: #f1f1f1;
+    padding: 2px;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+    font-size: 0.9em;
+    color: #333;
+    width: 300px;
+    height: auto;
+}
+
+/* Show the additional text on hover */
+.highlight-container:hover .additional-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* text highlight stuff */
+.text {
+    color: blue;
+    width: min-content;
+    padding: 0.5px;
+    cursor: pointer;
+}
+.text:hover {
+    /*border-radius: 10px; */
+    /* padding: 15px; */
+    background-color: #243f9d; 
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+
+
+}
