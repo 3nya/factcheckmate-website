@@ -32,6 +32,18 @@
 
 
 /* text highlight stuff */
+.title-text {
+    /* font-size: large; */
+    font-size: xx-large;
+    text-shadow: 3em;
+    font-family: 'Roboto';
+    font-weight: 550;
+    font-style: normal;
+    color:#3570ad;
+}
+.definition-text {
+    color:#3570ad;
+}
 .text {
     color: #3570ad;
     width: min-content;
