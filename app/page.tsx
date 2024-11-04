@@ -4,6 +4,7 @@ import "./page.css";
 import Authors from './components/authors';
 import Header from './components/header';
 import Highlight from "./components/highlight";
+import LineBreak from "./components/linebreak";
 
 
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
         <p className="first-box">
           Language models hidden states reveals valuable information about their internal working mechanisms, and provide signals that can be used to 
           predict whether it is likely to <Highlight text = "halluncinate" additionaltext="here i would put a defintion of halluncinations"/> <i> before </i> it happens. 
-          <br/>
+          <LineBreak/>
           When a hallucination is detected, Fact Checkmate intervenes, by adjusting the LM's hidden states with a learned intervention model.
           <br/>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet velit dolor. Cras auctor sagittis augue in varius. Nullam a suscipit risus, interdum fringilla massa. Nullam leo dolor, facilisis quis dolor eu, sodales porta enim. Nulla at velit eros. Sed ut elit ut est cursus facilisis in sit amet tellus. In hac habitasse platea dictumst. Duis tellus erat, tincidunt at turpis id, sagittis dignissim erat. Sed varius nunc nec ligula condimentum commodo ut quis neque. Nulla commodo erat nibh, sed blandit odio hendrerit id. Integer mattis sed elit eu luctus.
