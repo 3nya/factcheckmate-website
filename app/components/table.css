@@ -1,0 +1,28 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+}
+th,
+td {
+  /* border-bottom: 1px solid #cecfd5; */
+  padding: 10px 15px;
+  
+}
+tbody tr:nth-child(even) {
+    background: #f0f0f2;
+}
+tfoot tr:last-child td {
+  border-bottom: 0;
+}
+td {
+  background-color: rgb(159, 159, 188);
+  border-radius: 10px;
+  border-spacing: 10px;
+  /* border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5; */
+}
+thead {
+    background: #395870;
+    color: #fff;
+}
