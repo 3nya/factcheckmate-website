@@ -5,9 +5,7 @@ import Authors from './components/authors';
 import Header from './components/header';
 import Highlight from "./components/highlight";
 import LineBreak from "./components/linebreak";
-import Table from "./components/table";
-import {Tabulator, FormatModule, EditModule} from 'tabulator-tables';
-
+import TableExample from "./components/table";
 
 
 export default function Home() {
@@ -39,6 +37,7 @@ export default function Home() {
       </div>
       <div className="content">
         <h1 className="heading"> Results</h1>
+        <TableExample/>
 
       </div>
       <div className="content">
